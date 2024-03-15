@@ -5,11 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.png" />
 </head>
-<body>
-    
 
-    
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>My To Do List <img src="images/icon.png"></h2>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your text">
+                <button onclick="addTask()">Add Task</button>
+            </div>
+             <ul id="list-container">
+                <!-- <li class="checked">Tas1</li>
+                <li>Tas2</li>
+                <li>Tas3</li> -->
+
+             </ul>
+        </div>
+    </div>
+
+
     <script src="script.js"></script>
 </body>
 </html>
